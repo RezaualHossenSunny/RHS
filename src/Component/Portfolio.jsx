@@ -9,7 +9,7 @@ import js from '../assets/game.png'
 const Portfolio = () => {
   return (
     <div id='portfolio'>
-        <div className='max-w-container mx-auto py-20'>
+        <div className='max-w-container mx-auto py-24'>
 
         <div className='flex justify-center'>
         <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >PORTFOLIO</h1>

@@ -4,7 +4,7 @@ import { FcRight } from "react-icons/fc";
 const Whatido = () => {
   return (
     <div id='whatido'>
-        <div className='max-w-container mx-auto mt-6 py-16'>
+        <div className='max-w-container mx-auto mt-6 py-24'>
             <div  className='flex justify-center'>
             <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >What I Do-? </h1>
             <IoDesktopOutline className='text-4xl mt-1 ml-2 text-comon' />

@@ -16,7 +16,7 @@ const Contacet = () => {
 
   return (
     <div id='coontacet'>
-    <div className='max-w-container mx-auto py-18'>
+    <div className='max-w-container mx-auto py-24'>
     <div className='flex justify-center'>
         <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >CONTACT ME</h1>
         <CiCoffeeCup className='text-4xl mt-1 ml-2  text-orange-400'/>

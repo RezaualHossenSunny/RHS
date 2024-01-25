@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <>
-        <div className='max-w-container static  bg-[#F5F7FA] mx-auto py-7 ' >
+        <div className='max-w-container static  bg-[#F5F7FA] mx-auto py-8 ' >
        <div className='flex'>
         <div className='w-1/4 flex'>
           

@@ -5,7 +5,7 @@ import about from '../assets/About.jpg'
 const About = () => {
   return (
     <div id='about'>
-        <div className='max-w-container py-5 mx-auto flex'>
+        <div className='max-w-container py-24 mx-auto flex'>
         <div className='w-3/5 '>
            <div className='flex'> 
            <h1 className='font-inter text-[28px] font-bold not-italic text-[#4D4D4D]'>About Me </h1>

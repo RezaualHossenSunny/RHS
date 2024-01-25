@@ -18,7 +18,7 @@ import botstarp from '../assets/b.jpg'
 const Skill = () => {
   return (
     <div id='skill'>
-        <div className='max-w-container mx-auto py-10'>
+        <div className='max-w-container mx-auto py-24'>
 
         <div className='flex justify-center'>
         <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >Skills  </h1>
