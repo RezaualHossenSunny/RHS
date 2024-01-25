@@ -17,7 +17,7 @@ import ri from '../assets/intrei.svg'
 import botstarp from '../assets/b.jpg'
 const Skill = () => {
   return (
-    <>
+    <div id='skill'>
         <div className='max-w-container mx-auto py-10'>
 
         <div className='flex justify-center'>
@@ -85,7 +85,7 @@ const Skill = () => {
 
 
         </div>
-    </>
+    </div>
   )
 }
 

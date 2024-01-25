@@ -8,7 +8,7 @@ import js from '../assets/game.png'
 
 const Portfolio = () => {
   return (
-    <div>
+    <div id='portfolio'>
         <div className='max-w-container mx-auto py-20'>
 
         <div className='flex justify-center'>

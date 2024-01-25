@@ -4,7 +4,7 @@ import { FcManager } from "react-icons/fc";
 import about from '../assets/About.jpg'
 const About = () => {
   return (
-    <>
+    <div id='about'>
         <div className='max-w-container py-5 mx-auto flex'>
         <div className='w-3/5 '>
            <div className='flex'> 
@@ -35,7 +35,7 @@ const About = () => {
          </div>
         </div>
         </div>
-    </>
+    </div>
   )
 }
 
