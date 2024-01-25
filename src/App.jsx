@@ -1,6 +1,8 @@
 import About from "./Component/About"
 import Baner from "./Component/Baner"
 import Navbar from "./Component/Navbar"
+import Skill from "./Component/Skill"
+import Whatido from "./Component/Whatido"
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
  <Navbar></Navbar>
 <Baner></Baner>
 <About></About>
+<Whatido></Whatido>
+<Skill></Skill>
     </>
   )
 }

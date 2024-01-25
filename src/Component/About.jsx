@@ -24,7 +24,7 @@ const About = () => {
        <a className='py-4 px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center' href={pdf} download={pdf}>Get RESUME</a>
 
 
-        <a className='py-4 px-5  border border-comon font-bold text-loto text-sm rounded-lg items-center ml-8'>My Skill</a>
+        <a className='py-4 px-5  border border-comon font-bold text-loto text-sm rounded-lg items-center ml-8 hover:bg-slate-400'>My Skill</a>
        </div>
 
 
