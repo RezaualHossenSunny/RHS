@@ -15,8 +15,8 @@ const Navbar = () => {
            <p className='pl-11  text-center'>PORTFOLIO</p>
            <p className='pl-11 text-center'>CONTACT</p>
         </div>
-        <div className='w-1/4 pl-11 '>
-             <a href={pdf} download={pdf}>RESUME</a>
+        <div className='w-1/4 pl-14 '>
+             <a className='py-2.5 px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center' href={pdf} download={pdf}>RESUME</a>
         </div>
        </div>
         </div>
