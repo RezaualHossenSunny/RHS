@@ -15,6 +15,7 @@ export default {
     },
     fontFamily: {
       'lato': ['Lato', 'sans-serif'],
+      'inter': ['Inter', 'sans-serif'],
    
     }
   },
