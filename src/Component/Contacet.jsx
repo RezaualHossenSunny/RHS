@@ -1,6 +1,19 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { CiCoffeeCup } from "react-icons/ci";
+import emailjs from '@emailjs/browser'
 const Contacet = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_gkluxnz', 'template_hrl3cer', form.current, 'FTGPUQvpnDlYQeoZh')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
   return (
     <>
     <div className='max-w-container mx-auto py-18'>
@@ -10,13 +23,27 @@ const Contacet = () => {
         </div>
         <div  className='w-[300px] h-[3px] bg-gray-400 mx-auto mt-2 rounded-xl' ></div>
     <div className='flex py-4'>
-        <div className='w-2/4 text-center'>
-            <p className='font-lato mt-4 text-xl font-bold ot-italic leading-6 text-gray-700 '>
+        <div className='w-2/4 text-center mt-[180px]'>
+            <p className='font-lato text-xl font-bold ot-italic leading-6 text-gray-700 '>
             I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.
             </p>
         </div>
-        <div className='w-2/4  text-center'>
-ccc
+        <div className='w-2/4  text-center bg-comon rounded-2xl '>
+        <form ref={form} onSubmit={sendEmail}>
+      <div className='p-4 '>
+      <p className='font-inter text-xl font-black   '>Name  </p>
+      <input type="text" name="user_name" className='w-[400px] h-[40px] px-14 py-4 border-2 border-gray-700 rounded-xl' />
+      </div>
+     <div>
+     <p className='font-inter text-xl font-black  '>Email  </p>
+      <input  type="email" name="user_email" className='w-[400px] h-[40px] px-14 py-4 border-2 border-gray-700 rounded-xl' />
+     </div>
+      <div className='mt-2'>
+      <p className='font-inter text-xl font-black  '>Message</p>
+      <textarea name="message"  className='w-[400px] h-[130px] px-14 py-4 border-2 border-gray-700 rounded-xl'/>
+      </div>
+      <input className='bg-orange-400 p-4 w-[150px] rounded-lg font-bold text-1xl' type="submit" value="Send"  />
+    </form>
         </div>
     </div>
     </div>
