@@ -16,13 +16,12 @@ const Baner = () => {
     <TypeAnimation className='text-[#00CF5D] '
   sequence={[
     // Same substring at the start will only be typed once, initially
-    
+    'And I Am Computer Engineer',
+   
     1000,
-    ' Computer Engineer',
+    'And I Am MERN  Stack Developer',
     1000,
-    'MERN  Stack Developer',
-    1000,
-    'Programmer',
+    'And I Am  Programmer',
     1000,
   ]}
   speed={50}

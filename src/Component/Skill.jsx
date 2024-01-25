@@ -14,6 +14,7 @@ import api from '../assets/api.svg'
 import next from '../assets/next.svg'
 import mui from '../assets/mui.svg'
 import ri from '../assets/intrei.svg'
+import botstarp from '../assets/b.jpg'
 const Skill = () => {
   return (
     <>
@@ -76,7 +77,9 @@ const Skill = () => {
      <div className='w-1/5   '>
         <img src={mui} className='rounded-full p-4   border-8 border-comon w-[150px]' />
      </div>
-   
+     <div className='w-1/5   '>
+        <img src={botstarp} className='rounded-full p-8   border-8 border-comon w-[150px]' />
+     </div>
     </div>
 
 
