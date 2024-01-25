@@ -2,6 +2,7 @@ import React from 'react'
 import pdf from '../assets/Rhs.pdf';
 import { FcManager } from "react-icons/fc";
 import about from '../assets/About.jpg'
+import { Link } from "react-scroll";
 const About = () => {
   return (
     <div id='about'>
@@ -24,7 +25,9 @@ const About = () => {
        <a className='py-4 px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center' href={pdf} download={pdf}>Get RESUME</a>
 
 
-        <a className='py-4 px-5  border border-comon font-bold text-loto text-sm rounded-lg items-center ml-8 hover:bg-slate-400'>My Skill</a>
+   <Link  smooth spy to="skill" className='mt-4'>
+   <a className='py-4 px-5  border border-comon font-bold text-loto text-sm rounded-lg items-center ml-8 hover:bg-slate-400'>My Skill</a>
+   </Link>
        </div>
 
 
