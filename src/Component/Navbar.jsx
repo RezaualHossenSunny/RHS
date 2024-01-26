@@ -3,8 +3,8 @@ import pdf from '../assets/Rhs.pdf'
 import { Link } from "react-scroll";
 const Navbar = () => {
   return (
-    <>
-        <div className='max-w-container static  bg-[#F5F7FA] mx-auto py-8 ' >
+    <div className='w-full fixed bg-slate-200'>
+        <div className='max-w-container static  mx-auto py-8 ' >
        <div className='flex'>
         <div className='w-1/4 flex'>
           
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
        </div>
         </div>
-    </>
+    </div>
   )
 }
 

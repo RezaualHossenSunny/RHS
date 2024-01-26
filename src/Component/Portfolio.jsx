@@ -9,7 +9,7 @@ import js from '../assets/game.png'
 const Portfolio = () => {
   return (
     <div id='portfolio'>
-        <div className='max-w-container mx-auto py-24'>
+        <div className='max-w-container mx-auto py-32'>
 
         <div className='flex justify-center'>
         <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >PORTFOLIO</h1>
@@ -20,7 +20,7 @@ const Portfolio = () => {
         {/* content */}
         <div className='mt-14 flex  justify-between'> 
         <div className='w-3/12'>
-            <div className='border-2 border-gray-400 rounded-xl'>
+            <div className='border-2 border-gray-400 rounded-xl pb-3'>
              <img src={react} className='w-[300px] h-[250px]'  />
              <h1 className='font-lato text-center text-3xl font-semibold'>Chating App</h1>
              <h2 className='font-inter text-center text-1xl font-semibold'>Category:react Project</h2>
@@ -33,7 +33,7 @@ const Portfolio = () => {
         </div>
 
         <div className='w-3/12'>
-            <div className='border-2 border-gray-400 rounded-xl'>
+            <div className='border-2 border-gray-400 rounded-xl pb-3'>
              <img src={telwind} className='w-[300px] h-[200px]'  />
              <h1 className='font-lato text-center text-3xl font-semibold mt-8'>Pettroial</h1>
              <h2 className='font-inter text-center text-1xl font-semibold'>Category: talwind Project</h2>
@@ -45,7 +45,7 @@ const Portfolio = () => {
             </div>
         </div>
         <div className='w-3/12'>
-            <div className='border-2 border-gray-400 rounded-xl'>
+            <div className='border-2 border-gray-400 rounded-xl pb-3'>
              <img src={js} className='w-[300px] h-[200px]'  />
              <h1 className='font-lato text-center text-3xl font-semibold mt-8'>Game</h1>
              <h2 className='font-inter text-center text-1xl font-semibold'>Category: Javascript Project</h2>
