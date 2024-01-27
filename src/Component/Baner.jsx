@@ -10,12 +10,12 @@ const Baner = () => {
   return (
     <div>
         <div className='max-w-container mx-auto  py-24'>
-       <p className='text-4xl font-normal text-[#00CF5D] font-lato mt-24'>Hello! I am</p>
-       <h1 className='font-lato text-6xl font-semibold not-italic leading-10 mt-8'>Rezaul Hossen Sunny</h1>
+       <p className=' text-2xl md:text-4xl font-normal text-[#00CF5D] font-lato mt-24'>Hello! I am</p>
+       <h1 className='font-lato   text-4xl md:text-6xl font-semibold not-italic leading-10 mt-4 md:mt-8'>Rezaul Hossen Sunny</h1>
      <div className='font-lato mt-4  text-1xl font-semibold'>
 
      {/* type animation */}
-    <TypeAnimation className='text-[#00CF5D] mt-4 '
+    <TypeAnimation className='text-[#00CF5D] mt-4 m'
   sequence={[
     // Same substring at the start will only be typed once, initially
     'And I Am Computer Engineer',
@@ -27,7 +27,7 @@ const Baner = () => {
     1000,
   ]}
   speed={50}
-  style={{ fontSize: '2em' }}
+  style={{  fontSize: '2em' }}
   repeat={Infinity}
 />
 </div>
