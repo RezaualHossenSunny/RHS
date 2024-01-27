@@ -27,7 +27,7 @@ const Portfolio = () => {
              <p className='font-inter text-center mt-4 md:text-lg font-normal ot-italic leading-6 text-[#717171]'>Technology :React js, tailwind css, Redux toolkit, Jwt,Firebase</p>
             
             <div className='flex justify-center mt-1 md:mt-4'>
-                <button href=''  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px]'>Vew More</button>
+                <a href=''  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px] text-center'>Vew More</a>
             </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ const Portfolio = () => {
              <p className='font-inter text-center mt-4 md:text-lg font-normal ot-italic leading-6 text-[#717171]'>Technology :React js, tailwind css, figma</p>
             
             <div className='flex justify-center mt-4 md:mt-8'>
-                <button href=''  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px]'>Vew More</button>
+                <a href=''  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px] text-center'>Vew More</a>
             </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ const Portfolio = () => {
              <p className='font-inter text-center mt-4 md:text-lg font-normal ot-italic leading-6 text-[#717171]'>Technology :JavaScript,  css, figma,html.css</p>
             
             <div className='flex justify-center mt-4 md:mt-8'>
-                <button href=''  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px]'>Vew More</button>
+                <a href='https://github.com/RezaualHossenSunny'  className='p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px] text-center'>Vew More</a>
             </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ const Portfolio = () => {
 
 {/* vewmore */}
 <div className='flex justify-center mt-4 md:mt-10'>
-<button href='https://github.com/RezaualHossenSunny'  className='p-4 bg-gray-500 rounded-xl text-white font-inter font-bold w-[200px]  hover:bg-comon'>Vew More</button>
+<a href='https://github.com/RezaualHossenSunny'  className='p-4 bg-gray-500 rounded-xl text-white font-inter font-bold w-[200px] text-center hover:bg-comon'>Vew More</a>
 </div>
         
         </div>
