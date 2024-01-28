@@ -28,7 +28,7 @@ const Contacet = () => {
             I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.
             </p>
         </div>
-        <div className='w-full md:w-2/4  text-center bg-comon rounded-2xl ml-3 pb-2'>
+        <div className='w-full md:w-2/4  text-center bg-comon rounded-2xl md:ml-3 pb-2'>
         <form ref={form} onSubmit={sendEmail}>
       <div className='p-4 '>
       <p className='font-inter text-xl font-black   '>Name  </p>
