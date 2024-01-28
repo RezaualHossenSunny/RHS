@@ -7,12 +7,13 @@ const About = () => {
   return (
     <div id='about'>
         <div className='max-w-container py-0 md:py-28 mx-auto md:flex'>
-        <div className='w-3/5 '>
-           <div className='flex ml-28 md:ml-0 '> 
-           <h1 className='font-inter text-[14px] md:text-[28px] font-bold not-italic text-[#4D4D4D]'>About Me </h1>
+        <div className='w-3/5  '>
+           <div className='flex ml-2 md:ml-0'> 
+           <h1 className='font-inter text-[16px] md:text-[28px] font-bold not-italic text-[#4D4D4D]'>About Me </h1>
             <FcManager className='text-4xl pb-4 md:pb-0 md:ml-3' />
            </div>
-           <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-28 md:ml-0"></diV>
+           <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-0"></diV>
+
            <div className='font-lato mt-4 ml-0 md:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full'>
             <p>I am able to solve complex logic or other tasks related to web development. I have a perfect understanding of how JavaScript, TypeScript, HTML, and CSS work. I have a lot of experience working with up-to-date technologies especially React JS. I have powerful knowledge HTML, CSS, SCSS, Bootstrap, Tailwind CSS, JavaScript ES6, TypeScript, ReactJS, NextJS, React Native, Redux, NodeJS, NPM, ExpressJS, MongoDB, PostMan, Webpack, Firebase, Figma, XD.</p>
 

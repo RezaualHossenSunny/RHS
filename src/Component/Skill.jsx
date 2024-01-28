@@ -31,29 +31,29 @@ const Skill = () => {
 
   <div className='w-[120px] md:w-1/5 ml-[72px] md:ml-0'>
   <CircularProgressbar className='w-[150px]' value={percentage} text={`${percentage}%`} />;
-  <h1 className='ml-4 md:ml-[30px] font-inter text-xl font-bold leading-9 '>Htm CSS</h1>
+  <h1 className='ml-6 md:ml-[30px] font-inter text-xl font-bold leading-9 '>Htm CSS</h1>
 
   </div>
 
 
   <div className='w-[120px] md:w-1/5 ml-[72px] md:ml-0'>
   <CircularProgressbar className='w-[150px]' value={JS} text={`${JS}%`} />;
-  <h1 className='ml-4 md:ml-[25px] font-inter text-xl font-bold leading-9 '>JavaScript</h1>
+  <h1 className='ml-6 md:ml-[25px] font-inter text-xl font-bold leading-9 '>JavaScript</h1>
 
   </div>
   <div className='w-[120px] md:w-1/5 ml-[72px] md:ml-0'>
   <CircularProgressbar className='w-[150px]' value={Reacet} text={`${Reacet}%`} />;
-  <h1 className='ml-8 md:ml-[40px] font-inter text-xl font-bold leading-9 '>Racet</h1>
+  <h1 className='ml-12 md:ml-[40px] font-inter text-xl font-bold leading-9 '>Racet</h1>
 
   </div>
   <div className='w-[120px] md:w-1/5 ml-[72px] md:ml-0'>
   <CircularProgressbar className='w-[150px]' value={git} text={`${git}%`} />;
-  <h1 className='ml-4 md:ml-[20px] font-inter text-xl font-bold leading-9 '>Git GitHub</h1>
+  <h1 className='ml-5 md:ml-[20px] font-inter text-xl font-bold leading-9 '>Git GitHub</h1>
 
   </div>
   <div className='w-[120px] md:w-1/5 ml-[72px] md:ml-0'>
   <CircularProgressbar className='w-[150px]' value={backend} text={`${backend}%`} />;
-  <h1 className='ml-4 md:ml-[30px] font-inter text-xl font-bold leading-9 '>Backend</h1>
+  <h1 className='ml-8 md:ml-[30px] font-inter text-xl font-bold leading-9 '>Backend</h1>
 
   </div>
  </div>

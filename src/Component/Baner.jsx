@@ -10,12 +10,13 @@ const Baner = () => {
   return (
     <div>
         <div className='max-w-container mx-auto  py-24'>
-       <p className=' text-2xl md:text-4xl font-normal text-[#00CF5D] font-lato mt-24'>Hello! I am</p>
-       <h1 className='font-lato   text-4xl md:text-6xl font-semibold not-italic leading-10 mt-4 md:mt-8'>Rezaul Hossen Sunny</h1>
+       <p className=' text-2xl md:text-4xl font-normal text-[#00CF5D] font-lato mt-24 ml-3 md:ml-0'>Hello! I am</p>
+       <h1 className='font-lato   text-4xl md:text-6xl font-semibold not-italic leading-10 mt-4 md:mt-8 ml-3 md:ml-0'>Rezaul Hossen Sunny</h1>
      <div className='font-lato mt-4  text-1xl font-semibold'>
 
      {/* type animation */}
-    <TypeAnimation className='text-[#00CF5D] mt-4 m'
+<div className=' ml-3 md:ml-0'>
+<TypeAnimation className='text-[#00CF5D] mt-4 m '
   sequence={[
     // Same substring at the start will only be typed once, initially
     'And I Am Computer Engineer',
@@ -31,8 +32,9 @@ const Baner = () => {
   repeat={Infinity}
 />
 </div>
+</div>
 {/* button */}
-<div className='flex mt-12'>
+<div className='flex mt-12 ml-3 md:ml-0'>
 <a className='py-4 px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center' href={pdf} download={pdf}>Get RESUME</a>
 
 
@@ -43,7 +45,7 @@ const Baner = () => {
 
 {/* icon */}
 
- <div className='flex  mt-12'>
+ <div className='flex  mt-12 ml-3 md:ml-0'>
  <a href='https://github.com/RezaualHossenSunny' > <FaGithub className='text-4xl' /></a>
  <a href='https://www.linkedin.com/in/rezaulhossensunny'> <FaLinkedin className='text-4xl ml-3' /></a>
  <a href='https://www.facebook.com/Rezaualsunny'> <FaFacebookSquare className='text-4xl ml-3' /></a>
