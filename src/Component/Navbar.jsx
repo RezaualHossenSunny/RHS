@@ -49,7 +49,7 @@ const Navbar = () => {
           </Link>
           </li>
         </ul>
-        <div className=' mt-4 md:mt-0  ml-32  md:ml-0 '>
+        <div className=' mt-4 md:mt-0  ml-32  sm:ml-0 '>
          
           <a className='py-2.5 px-5 text-center bg-comon text-white font-bold text-loto text-sm rounded-lg  ' href={pdf} download={pdf}>RESUME</a>
         </div>

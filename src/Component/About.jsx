@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div id='about'>
-        <div className='max-w-container py-0 md:py-28 mx-auto md:flex '>
+        <div className='max-w-container py-0 md:py-28 mx-auto sm:flex '>
         <div className='w-3/5  '>
            <div className='flex ml-2 md:ml-0'> 
            <h1 className='font-inter text-[16px] md:text-[28px] font-bold not-italic text-[#4D4D4D]'>About Me </h1>
@@ -14,7 +14,7 @@ const About = () => {
            </div>
            <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-0"></diV>
 
-           <div className='font-lato mt-4 ml-0 md:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full'>
+           <div className='font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full'>
             <p>I am able to solve complex logic or other tasks related to web development. I have a perfect understanding of how JavaScript, TypeScript, HTML, and CSS work. I have a lot of experience working with up-to-date technologies especially React JS. I have powerful knowledge HTML, CSS, SCSS, Bootstrap, Tailwind CSS, JavaScript ES6, TypeScript, ReactJS, NextJS, React Native, Redux, NodeJS, NPM, ExpressJS, MongoDB, PostMan, Webpack, Firebase, Figma, XD.</p>
 
             <p className='mt-2'>
@@ -22,7 +22,7 @@ const About = () => {
             </p>
            </div>
            {/* button */}
-       <div className=' md:flex mt-8  ml-[75px] md:ml-0 w-full'>
+       <div className=' md:flex mt-8  ml-[75px] sm:ml-0 w-full'>
        <a className='py-2 md:py-4 px-3 md:px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center' href={pdf} download={pdf}>Get RESUME</a>
 
 
@@ -33,7 +33,7 @@ const About = () => {
 
 
         </div>
-        <div  className=' w-full md:w-2/5 '>
+        <div  className=' w-full sm:w-2/5 '>
          <div className=' mt-8 md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl'>
             <img src={about} className='w-[200px] md:w-full' />
          </div>

@@ -15,7 +15,7 @@ const Whatido = () => {
             {/* content */}
 
        <div className='bg-[#F5F7FA] mt-12  text-center '>
-       <div className=' md:flex justify-between'>
+       <div className=' sm:flex justify-between'>
                 <div className=' w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-comon mt-2 md:mt-o'>
                   <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
                  <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>Prepare variety of different designs, layouts and websites</p>
@@ -32,7 +32,7 @@ const Whatido = () => {
                 
             </div>
 
-            <div className=' md:flex justify-between mt-6'>
+            <div className=' sm:flex justify-between mt-6'>
 
                 <div className='w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0'>
                   <FcRight  className='text-xl mt-1 hover:text-comon ml-1'/>
