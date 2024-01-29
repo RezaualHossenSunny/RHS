@@ -16,9 +16,9 @@ const Skill = () => {
     <div id='skill'>
         <div className='max-w-container mx-auto py-4 md:py-28'>
 
-        <div className='flex justify-center'>
-        <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >Skills  </h1>
-        <FaFire className='text-4xl mt-1 ml-2  text-orange-400'/>
+        <div className='flex justify-center '>
+        <h1 className='text-center font-inter text-4xl font-bold leading-9 ml-5 md:ml-0' >Skills  </h1>
+        <FaFire className='text-4xl mt-1 ml-4 md:ml-2  text-orange-400'/>
         </div>
         <div  className='w-[200px] h-[3px] bg-gray-500 mx-auto mt-2 rounded-xl' ></div>
  

@@ -49,9 +49,9 @@ const Navbar = () => {
           </Link>
           </li>
         </ul>
-        <div className=' mt-4 md:mt-0'>
+        <div className=' mt-4 md:mt-0  ml-32  md:ml-0 '>
          
-          <a className='py-2.5 px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg  ml-32  md:ml-0 ' href={pdf} download={pdf}>RESUME</a>
+          <a className='py-2.5 px-5 text-center bg-comon text-white font-bold text-loto text-sm rounded-lg  ' href={pdf} download={pdf}>RESUME</a>
         </div>
       </div>
   </div>

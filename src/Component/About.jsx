@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div id='about'>
-        <div className='max-w-container py-0 md:py-28 mx-auto md:flex'>
+        <div className='max-w-container py-0 md:py-28 mx-auto md:flex '>
         <div className='w-3/5  '>
            <div className='flex ml-2 md:ml-0'> 
            <h1 className='font-inter text-[16px] md:text-[28px] font-bold not-italic text-[#4D4D4D]'>About Me </h1>
@@ -33,7 +33,7 @@ const About = () => {
 
 
         </div>
-        <div  className=' w-full md:w-2/5'>
+        <div  className=' w-full md:w-2/5 '>
          <div className=' mt-8 md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl'>
             <img src={about} className='w-[200px] md:w-full' />
          </div>
