@@ -4,8 +4,8 @@ import { FcManager } from "react-icons/fc";
 import about from "../assets/About.jpg";
 import { Link } from "react-scroll";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 
@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-0"></diV>
 
-          <div className="font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full">
+          <div className="font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full" data-aos="fade-up">
             <p>
               I am able to solve complex logic or other tasks related to web
               development. I have a perfect understanding of how JavaScript,
@@ -58,9 +58,15 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className=" w-full sm:w-2/5" >
-          <div className=" mt-8 md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl"  data-aos="fade-left">
-            <img src={about} className="w-[200px] md:w-full"   />
+        <div className=" w-full sm:w-2/5">
+          <div
+            className=" mt-8 md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            <img src={about} className="w-[200px] md:w-full" />
           </div>
         </div>
       </div>

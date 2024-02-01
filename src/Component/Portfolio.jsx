@@ -24,6 +24,7 @@ const Portfolio = () => {
               <img
                 src={react}
                 className=" w-full md:w-[300px] h-[200px] md:h-[250px]"
+                data-aos="zoom-in-up"
               />
               <h1 className="font-lato text-center text-xl md:text-3xl font-semibold">
                 Chating App
@@ -51,6 +52,7 @@ const Portfolio = () => {
               <img
                 src={telwind}
                 className="w-full md:w-[300px] h-[150] md:h-[200px]"
+                data-aos="zoom-in-up"
               />
               <h1 className="font-lato text-center text-xl md:text-3xl font-semibold mt-8">
               Bank OF React
@@ -77,6 +79,7 @@ const Portfolio = () => {
               <img
                 src={js}
                 className="w-full md:w-[300px] h-[150px] md:h-[200px]"
+                data-aos="zoom-in-up"
               />
               <h1 className="font-lato text-center text-xl md:text-3xl font-semibold mt-8">
                 Game
