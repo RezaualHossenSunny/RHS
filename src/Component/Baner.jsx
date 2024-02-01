@@ -11,7 +11,7 @@ const Baner = () => {
     <div>
         <div className='max-w-container mx-auto  py-24'>
        <p className=' text-2xl md:text-4xl font-normal text-[#00CF5D] font-lato mt-24 ml-3 md:ml-0'>Hello! I am</p>
-       <h1 className='font-lato   text-4xl md:text-6xl font-semibold not-italic leading-10 mt-4 md:mt-8 ml-3 md:ml-0'  data-aos="fade-right">Rezaul Hossen Sunny</h1>
+       <h1 className='font-lato   text-4xl md:text-6xl font-semibold not-italic leading-10 mt-4 md:mt-8 ml-3 md:ml-0'>Rezaul Hossen Sunny</h1>
      <div className='font-lato mt-4  text-1xl font-semibold'>
 
      {/* type animation */}
