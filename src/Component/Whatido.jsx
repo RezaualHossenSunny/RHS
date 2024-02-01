@@ -20,7 +20,7 @@ const Whatido = () => {
                   <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
                  <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>Prepare variety of different designs, layouts and websites</p>
                 </div>
-                <div className=' w-full md:w-1/4 border-2 border-gray-400 rounded-xl flex hover:bg-comon  mt-2 md:mt-o'>
+                <div className=' w-full md:w-1/4 border-2 border-gray-400 rounded-xl flex hover:bg-comon  mt-2 md:mt-o' >
                   <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
                  <p className='font-lato  text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>i provide any web application with MERN Stack Development</p>
                 </div>
