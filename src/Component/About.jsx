@@ -22,7 +22,10 @@ const About = () => {
           </div>
           <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-0"></diV>
 
-          <div className="font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full" data-aos="fade-up">
+          <div
+            className="font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full"
+            data-aos="fade-up"
+          >
             <p>
               I am able to solve complex logic or other tasks related to web
               development. I have a perfect understanding of how JavaScript,
@@ -58,9 +61,9 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className=" w-full sm:w-2/5">
+        <div className=" w-full sm:w-full md:w-2/5 sm:mt-20 md:mt-0">
           <div
-            className=" mt-8 md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl"
+            className=" mt-8  md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl"
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"

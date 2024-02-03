@@ -69,7 +69,7 @@ const Skill = () => {
               Git GitHub
             </h1>
           </div>
-          <div className="w-[120px] md:w-1/5 ml-[72px] md:ml-0">
+          <div className="w-[120px] md:w-1/5 ml-0 sm:ml-16 md:ml-0">
             <CircularProgressbar
               className="w-[80px] md:w-[150px]"
               value={backend}
