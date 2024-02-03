@@ -1,6 +1,10 @@
 import React, { useRef } from 'react'
 import { CiCoffeeCup } from "react-icons/ci";
-import emailjs from '@emailjs/browser'
+import emailjs, { send } from '@emailjs/browser'
+
+import Swal from 'sweetalert2'
+
+
 const Contacet = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -13,7 +17,14 @@ const Contacet = () => {
               console.log(error.text);
           });
       };
-
+const send=()=>{
+    Swal.fire({
+        title: 'Are You Sure',
+        text: 'Do you want to continue',
+        icon: 'success',
+        confirmButtonText: 'Send'
+      })
+}
   return (
     <div id='coontacet'>
     <div className='max-w-container mx-auto py-0 md:py-24'>
@@ -42,7 +53,8 @@ const Contacet = () => {
       <p className='font-inter text-xl font-black  '>Message</p>
       <textarea name="message"  className=' w-[300px] lg:w-[400px] h-[130px] px-14 py-4 border-2 border-gray-700 rounded-xl'/>
       </div>
-      <input className='bg-orange-400 p-4 w-[150px] rounded-lg font-bold text-1xl' type="submit" value="Send"  />
+      <input className='bg-orange-400 p-4 w-[150px] rounded-lg font-bold text-1xl' type="submit" value="Send"  onClick={send} />
+      
     </form>
         </div>
     </div>
