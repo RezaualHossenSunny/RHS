@@ -32,7 +32,7 @@ const Skill = () => {
             />
             
             <h1 className="ml-2 md:ml-[30px] font-inter text-sm md:text-xl font-bold leading-9 w-[100px] mt-2 ">
-              Htm CSS
+              Html CSS
             </h1>
           </div>
 
