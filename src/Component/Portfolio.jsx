@@ -18,21 +18,20 @@ const Portfolio = () => {
         <div className="w-[300px] h-[3px] bg-gray-400 mx-auto mt-2 rounded-xl"></div>
 
         {/* content */}
-        <div className=" mt-14  md:flex  justify-between ">
-          <div className="static w-full md:w-3/12  ">
+        <div className="mt-14   md:flex  justify-between ml-0 md:ml-1 lg-ml-0 ">
+          <div className=" w-full md:w-[200px] lg:w-3/12  ">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={react}
                 className=" w-full md:w-[300px] h-[200px] md:h-[250px]"
-               
               />
-              <h1 className="font-lato text-center text-xl md:text-3xl font-semibold">
+              <h1 className="font-lato text-center text-xl md:text-base lg:text-3xl font-semibold">
                 Chating App
               </h1>
-              <h2 className="font-inter text-center text-sm md:text-1xl font-semibold">
+              <h2 className="font-inter text-center text-sm md:text-base lg::text-1xl font-semibold">
                 Category:react Project
               </h2>
-              <p className="font-inter text-center mt-4 md:text-lg font-normal ot-italic leading-6 text-[#717171]">
+              <p className="font-inter text-center mt-4 text-base lg:text-lg font-normal ot-italic leading-6 text-[#717171]">
                 Technology :React js, tailwind css, Redux toolkit, Jwt,Firebase
               </p>
 
@@ -47,24 +46,23 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-3/12 mt-4 md:mt-0">
+          <div className="w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-0">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={telwind}
-                className="w-full md:w-[300px] h-[150] md:h-[200px]"
-              
+                className="w-full md:w-[300px] h-[150] md:h-[190px]"
               />
-              <h1 className="font-lato text-center text-xl md:text-3xl font-semibold mt-8">
-              Bank OF React
+              <h1 className="font-lato text-center text-xl md:text-base lg:text-3xl font-semibold mt-8">
+                Bank OF React
               </h1>
-              <h2 className="font-inter text-center text-sm md:text-1xl font-semibold">
-                Category: React / MUI / npm package
+              <h2 className="font-inter text-center text-sm md:text-base lg:text-1xl font-semibold">
+                Category:React Project
               </h2>
-              <p className="font-inter text-center mt-4 md:text-lg font-normal ot-italic leading-6 text-[#717171]">
-                Technology :React js, tailwind css, figma
+              <p className="font-inter text-center mt-6 lg:mt-4 text-base lg:text-lg font-normal ot-italic leading-6 text-[#717171]">
+                Technology : React / MUI /  Chart.js/ mui Drak Theme / 
               </p>
 
-              <div className="flex justify-center mt-4 md:mt-8">
+              <div className="flex justify-center mt-4 md:mt-14 lg:mt-14">
                 <a
                   href=""
                   className="p-2 md:p-4 bg-comon rounded-xl text-white font-inter font-bold w-[200px] text-center"
@@ -74,12 +72,11 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className=" w-full md:w-3/12 mt-4 md:mt-o">
+          <div className=" w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-o">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={js}
                 className="w-full md:w-[300px] h-[150px] md:h-[200px]"
-              
               />
               <h1 className="font-lato text-center text-xl md:text-3xl font-semibold mt-8">
                 Game

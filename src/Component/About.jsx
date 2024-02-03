@@ -14,16 +14,16 @@ const About = () => {
     <div id="about">
       <div className="max-w-container py-0 md:py-28 mx-auto sm:flex ">
         <div className="w-3/5  ">
-          <div className="flex ml-2 md:ml-0">
+          <div className="flex ml-2 md:ml-1">
             <h1 className="font-inter text-[16px] md:text-[28px] font-bold not-italic text-[#4D4D4D]">
               About Me{" "}
             </h1>
             <FcManager className="text-4xl pb-4 md:pb-0 md:ml-3" />
           </div>
-          <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-0"></diV>
+          <diV className="  w-[90px] md:w-[200px] h-[2px] bg-slate-400 ml-2 md:ml-1"></diV>
 
           <div
-            className="font-lato mt-4 ml-2 sm:ml-0 text-sm md:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px]  md:w-full"
+            className="font-lato mt-4 ml-2 sm:ml-0 md:ml-2 text-sm md:text-xl lg:text-lg font-normal ot-italic leading-6 text-[#717171] w-[350px] md:w-[300px]  lg:w-full  "
             data-aos="fade-up"
           >
             <p>
@@ -45,7 +45,7 @@ const About = () => {
             </p>
           </div>
           {/* button */}
-          <div className=" md:flex mt-8  ml-[75px] sm:ml-0 w-full">
+          <div className=" md:flex mt-8  ml-[75px] sm:ml-0 w-full md:ml-0">
             <a
               className="py-2 md:py-4 px-3 md:px-5 bg-comon text-white font-bold text-loto text-sm rounded-lg items-center"
               href={pdf}
@@ -61,7 +61,7 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className=" w-full sm:w-full md:w-2/5 sm:mt-20 md:mt-0">
+        <div className=" w-full sm:w-full md:full lg:w-2/5 sm:mt-20 md:mt-[200px] lg:mt-0">
           <div
             className=" mt-8  md:mt-10 ml-20  md:ml-44  md:border-4  border-[#263238] rounded-xl"
             data-aos="fade-left"

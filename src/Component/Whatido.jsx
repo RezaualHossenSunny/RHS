@@ -17,36 +17,36 @@ const Whatido = () => {
        <div className='bg-[#F5F7FA] mt-12  text-center '>
        <div className=' sm:flex justify-between'>
                 <div className=' w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-comon mt-2 md:mt-o'>
-                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
-                 <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>Prepare variety of different designs, layouts and websites</p>
+                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato text-base md:text-sm lg:text-xl text-black ml-1 not-italic font-normal hover:text-white md:mt-4 lg:mt-0'>Prepare variety of different designs, layouts and websites</p>
                 </div>
                 <div className=' w-full md:w-1/4 border-2 border-gray-400 rounded-xl flex hover:bg-comon  mt-2 md:mt-o' >
-                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
-                 <p className='font-lato  text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>i provide any web application with MERN Stack Development</p>
+                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato  text-base md:tex-sm lg:text-xl text-black ml-1 not-italic font-normal hover:text-white md:mt-3 lg:mt-0'>i provide any web application with MERN Stack Development</p>
                 </div>
                 <div className='w-full md:w-1/4 border-2 border-gray-400 rounded-xl flex hover:bg-comon  mt-2 md:mt-o'>
-                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1'/>
-                 <p className='font-lato  text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>i provede mobile application for your business model</p>
+                  <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato  text-base md:text-sm lg:text-xl text-black ml-1 not-italic font-normal hover:text-white md:mt-4 lg:mt-0'>i provede mobile application for your business model</p>
                 </div>
                
                 
             </div>
 
-            <div className=' sm:flex justify-between mt-6'>
+            <div className=' sm:flex justify-between mt-0 md:mt-24 lg:mt-6'>
 
-                <div className='w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0'>
-                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1'/>
-                 <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white '>Convert graphic designs to usable web images using React JS</p>
+                <div className='w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0 h-full md:h-[90px] lg:h-[110px]'>
+                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato text-base md:text-sm lg:text-xl text-black ml-1 not-italic font-normal hover:text-white md:mt-4 lg:mt-0'>Convert graphic designs to usable web images using React JS</p>
                 </div>
 
-                <div className=' w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0'>
-                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1'/>
-                 <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>Awesome ui provide for web application mobile application</p>
+                <div className=' w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0 h-full md:h-[90px] lg:h-[110px]'>
+                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato text-base md:text-sm lg:text-xl text-black ml-1 not-italic font-normal hover:text-white md:mt-4 lg:mt-0'>Awesome ui provide for web application mobile application</p>
                 </div>
 
-                <div className='w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0'>
-                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1 '/>
-                 <p className='font-lato text-base md:text-xl text-black ml-1 not-italic font-normal hover:text-white'>Actively listen to customers' requests, confirming full understanding before addressing concerns</p>
+                <div className='w-full md:w-[260px] lg:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-gray-500 mt-2 md:mt-0 h-full md:h-[90px] lg:h-[110px] '>
+                  <FcRight  className='text-xl mt-1 hover:text-comon ml-1 md:mt-4 lg:mt-0'/>
+                 <p className='font-lato text-base md:text-sm lg:text-lg text-black ml-1 not-italic font-normal hover:text-white md:mt-4 lg:mt-0'>Actively listen to customers' requests, confirming full understanding before addressing concerns</p>
                 </div>
             
                

@@ -23,7 +23,7 @@ const Skill = () => {
         <div className="w-[200px] h-[3px] bg-gray-500 mx-auto mt-2 rounded-xl"></div>
 
         {/* content */}
-        <div className="py-8 mt-12 md:mt-32 justify-center ml-[50px] grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="py-8 mt-12 md:mt-32 justify-center ml-[50px] grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <div className="w-[120px] md:w-1/5 sm:ml-[72px] md:ml-0">
             <CircularProgressbar
               className=" w-[80px] md:w-[150px]"
