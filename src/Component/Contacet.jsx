@@ -24,6 +24,7 @@ const send=()=>{
         icon: 'success',
         confirmButtonText: 'Send'
       })
+ 
 }
   return (
     <div id='coontacet'>

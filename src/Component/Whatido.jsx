@@ -3,7 +3,7 @@ import { IoDesktopOutline } from "react-icons/io5";
 import { FcRight } from "react-icons/fc";
 const Whatido = () => {
   return (
-    <div id='whatido'>
+    <div id='whatido' className='bg-[#F5F7FA]'>
         <div className='max-w-container mx-auto mt-6 py-14 md:py-28' >
             <div  className='flex justify-center'>
             <h1 className='text-center font-inter text-4xl font-bold leading-9 ' >What I Do-? </h1>
@@ -14,7 +14,7 @@ const Whatido = () => {
 
             {/* content */}
 
-       <div className='bg-[#F5F7FA] mt-12  text-center '>
+       <div className=' mt-12  text-center '>
        <div className=' sm:flex justify-between'>
                 <div className=' w-full md:w-1/4  border-2 border-gray-400 rounded-xl flex hover:bg-comon mt-2 md:mt-o'>
                   <FcRight  className='text-xl mt-1 hover:text-gray-500 ml-1 md:mt-4 lg:mt-0'/>
