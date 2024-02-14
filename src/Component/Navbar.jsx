@@ -23,29 +23,29 @@ const Navbar = () => {
             className="dropdown-container-mobile lg:dropdown-container-dekstop"
           >
              <Link smooth spy to="about">
-      <p className='  text-center font-semibold  hover:font-bold '>ABOUT</p>
+      <p className='  text-center font-bold hover:text-slate-700 '>ABOUT</p>
       </Link>
             
           </li>
           <li>
           <Link smooth spy to="whatido">
-         <p className='pl-4  text-center font-semibold   hover:font-bold  '>WHAT I Do?</p>
+         <p className='pl-4  text-center font-bold hover:text-slate-700  '>WHAT I Do?</p>
          </Link>
           </li>
           <li>
           <Link smooth spy to="skill">
-         <p className='pl-4 text-center font-semibold  hover:font-bold '>SKILL</p>
+         <p className='pl-4 text-center font-bold hover:text-slate-700  '>SKILL</p>
 
          </Link>
           </li>
           <li>
           <Link smooth spy to="portfolio">
-          <p className='pl-4  text-center font-semibold   hover:font-bold hover:text-slate-700 '>PORTFOLIO</p>
+          <p className='pl-4  text-center font-bold hover:text-slate-700  '>PORTFOLIO</p>
           </Link>
           </li>
           <li>
           <Link smooth spy to="coontacet">
-          <p className='pl-4 text-center font-semibold  hover:font-bold'>CONTACT</p>
+          <p className='pl-4 text-center font-bold hover:text-slate-700 '>CONTACT</p>
           </Link>
           </li>
         </ul>

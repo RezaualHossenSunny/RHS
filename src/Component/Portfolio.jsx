@@ -19,7 +19,7 @@ const Portfolio = () => {
 
         {/* content */}
         <div className="mt-14   md:flex  justify-between ml-0 md:ml-1 lg-ml-0 ">
-          <div className=" w-full md:w-[200px] lg:w-3/12  ">
+          <div className=" w-full md:w-[200px] lg:w-3/12 p-4 md:p-0  ">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={react}
@@ -46,7 +46,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-0">
+          <div className="w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-0 p-4 md:p-0">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={telwind}
@@ -72,7 +72,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className=" w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-o">
+          <div className=" w-full md:w-[200px] lg:w-3/12 mt-4 md:mt-o p-4 md:p-0">
             <div className="border-2 border-gray-400 rounded-xl pb-3">
               <img
                 src={js}
