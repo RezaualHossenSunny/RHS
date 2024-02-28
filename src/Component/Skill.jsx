@@ -55,7 +55,7 @@ const Skill = () => {
             />
             
             <h1 className="ml-5 md:ml-[40px] font-inter text-sm md:text-xl font-bold leading-9 ">
-              Racet
+            React
             </h1>
           </div>
           <div className="w-[120px] md:w-1/5 sm:ml-[72px] md:ml-0">
